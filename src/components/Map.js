@@ -5,7 +5,9 @@ function Map(props) {
   const { name } = props
 
   return (
-   <div>🗺 This is the { name } component 🗺</div> 
+      <div className="map">
+        <div>🗺 This is the { name } component 🗺</div>
+      </div>
   )
 }
 

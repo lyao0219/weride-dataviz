@@ -1,31 +1,23 @@
 import React from 'react';
+/* The following line can be included in your src/index.js or App.js file*/
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import logo from './logo.svg';
 import './App.css';
 
 import Map from './components/Map';
+import Topbar from './components/Topbar';
+import Info from './components/Info';
+import Legend from './components/Legend';
 
 function App() {
-  return (
-    <div className="App">
-      <Map name="awesome map" />
-
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Topbar />
+            <Map name="awesome map" />
+            <Info />
+            <Legend />
+        </div>
+    );
 }
 
 export default App;

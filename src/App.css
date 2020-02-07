@@ -1,38 +1,57 @@
+h2 {
+  margin: 3px;
+}
+
+h3 {
+  margin: 3px;
+}
+
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 20px;
+  grid-auto-rows: 22% 22% 22% 22%;
+  height: 100vh;
+}
+.items {
+  grid-column: 1 / 5;
+  grid-row: 1;
+  outline: rgb(91, 76, 175) solid 10px;
+}
+.map {
+  grid-column: 1 / 4;
+  grid-row: 2 / 5;
+  outline: #4CAF50 solid 10px;
+}
+.info {
+  grid-column: 4 / 5;
+  grid-row: 2 / 4;
+  outline: rgb(175, 76, 76) solid 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.legend {
+  grid-column: 4 / 5;
+  grid-row: 4;
+  outline: rgb(76, 175, 167) solid 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.thumbnail-container {
+  overflow-x:scroll;
+  padding: 0 15px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.thumbnail-list {
+  white-space:nowrap;
+  list-style: none;
+  padding-inline-start: 0px
 }
-
-.App-link {
-  color: #61dafb;
+.thumbnail-list li {
+  display: inline-block;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thumbnail-image {
+  display: block;
+  padding:2px;
+  max-width: 100px;
+  height:auto;
 }
