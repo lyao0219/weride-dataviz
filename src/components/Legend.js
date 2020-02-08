@@ -4,10 +4,10 @@ function Legend(){
     return(
         <div className="legend">
             <h3>Legend</h3>
-            <ul>
-                <li>Boss kill</li>
-                <li>Owner Change</li>
-                <li>Player kill</li>
+            <ul className="legendList">
+                <li className="bosskill">Boss kill</li>
+                <li className="ownerchange">Owner Change</li>
+                <li className="playerkill">Player kill</li>
             </ul>
         </div>
     );

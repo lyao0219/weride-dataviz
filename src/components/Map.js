@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 
 function Map(props) {
-  const { name } = props
+  const { name } = props;
 
   return (
       <div className="map">

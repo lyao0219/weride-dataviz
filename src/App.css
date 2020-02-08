@@ -51,7 +51,49 @@ h3 {
 }
 .thumbnail-image {
   display: block;
-  padding:2px;
+  padding: 10px;
   max-width: 100px;
-  height:auto;
+}
+
+.item-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width:100px;
+  text-align: center;
+}
+
+ul[class="legendList"] {
+  list-style: none; /* Remove default bullets */
+}
+
+ul[class="legendList"] li[class="bosskill"]::before {
+  content: "\0E4F";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ffc448; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul[class="legendList"] li[class="ownerchange"]::before {
+  content: "\0E4F";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ff484d; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul[class="legendList"] li[class="playerkill"]::before {
+  content: "\0E4F";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f560ff; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.item_header {
+  display: inline;
 }
