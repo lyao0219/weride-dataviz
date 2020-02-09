@@ -83,6 +83,12 @@ class Item extends React.Component{
         if(lowercase.includes('neck')){
             source = necklace;
         }
+        if(lowercase.includes('spetum')){
+            source = spear;
+        }
+        if(lowercase.includes('bracelet')){
+            source = necklace;
+        }
 
 
         return(
