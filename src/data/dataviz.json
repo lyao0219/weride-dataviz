@@ -14,7 +14,12 @@
     "location": "Tann",
     "date": "2018-12-08T14:03:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 576480,
+      "y": 119660,
+      "z": -17660
+    }
   },
   {
     "id": 169,
@@ -31,7 +36,12 @@
     "location": "White Cavern entrance",
     "date": "2018-08-29T19:37:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 143038,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 185,
@@ -48,7 +58,12 @@
     "location": "Tann",
     "date": "2018-12-08T14:03:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 576480,
+      "y": 119660,
+      "z": -17660
+    }
   },
   {
     "id": 564,
@@ -65,7 +80,12 @@
     "location": "White Cavern entrance",
     "date": "2018-08-29T19:37:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 143038,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 580,
@@ -82,7 +102,12 @@
     "location": "Tann",
     "date": "2018-12-08T14:03:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 576480,
+      "y": 119660,
+      "z": -17660
+    }
   },
   {
     "id": 711,
@@ -96,10 +121,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:00:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 718,
@@ -113,10 +143,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:01:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 744,
@@ -130,10 +165,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:55:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 752,
@@ -147,10 +187,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:56:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 710,
@@ -164,10 +209,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:00:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 717,
@@ -181,10 +231,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:01:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 741,
@@ -198,10 +253,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:55:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 749,
@@ -215,10 +275,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:56:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 779,
@@ -235,7 +300,12 @@
     "location": "Dourt Hills",
     "date": "2019-09-29T09:05:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 481760,
+      "y": 115970,
+      "z": 15323
+    }
   },
   {
     "id": 176,
@@ -249,10 +319,15 @@
     "primary_name": "Tyku",
     "secondary_char": 0,
     "secondary_name": "NULL",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2018-08-20T20:59:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 732,
@@ -269,7 +344,12 @@
     "location": "Fire Pits",
     "date": "2019-09-16T21:04:00Z",
     "story_points": 0,
-    "special": "rediscovered"
+    "special": "rediscovered",
+    "coordinates": {
+      "x": 514120,
+      "y": 237870,
+      "z": -14180
+    }
   },
   {
     "id": 747,
@@ -283,10 +363,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:55:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 755,
@@ -300,10 +385,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:56:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 730,
@@ -320,7 +410,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:41:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 769,
@@ -337,7 +428,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 706,
@@ -351,10 +447,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:00:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 713,
@@ -368,10 +469,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:01:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 746,
@@ -385,10 +491,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:55:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 754,
@@ -402,10 +513,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:56:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 414,
@@ -422,7 +538,12 @@
     "location": "Dunes",
     "date": "2018-08-29T18:04:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 430,
@@ -439,7 +560,12 @@
     "location": "White Cavern",
     "date": "2018-08-31T10:00:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 586,
@@ -456,7 +582,12 @@
     "location": "Dunes",
     "date": "2018-08-29T18:04:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 602,
@@ -473,7 +604,12 @@
     "location": "White Cavern",
     "date": "2018-08-31T10:00:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 775,
@@ -490,7 +626,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-28T09:15:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 579,
@@ -507,7 +644,12 @@
     "location": "The Abyss",
     "date": "2018-08-18T21:56:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 575162,
+      "y": 635161,
+      "z": -4218
+    }
   },
   {
     "id": 595,
@@ -524,7 +666,12 @@
     "location": "Tow",
     "date": "2018-08-19T20:41:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 627640,
+      "y": 187810,
+      "z": -16570
+    }
   },
   {
     "id": 611,
@@ -541,7 +688,12 @@
     "location": "Tow",
     "date": "2018-08-24T19:31:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 627640,
+      "y": 187810,
+      "z": -16570
+    }
   },
   {
     "id": 725,
@@ -558,7 +710,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:40:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 738,
@@ -575,7 +728,12 @@
     "location": "Troll Lair",
     "date": "2019-09-21T15:37:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 767,
@@ -592,7 +750,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 192,
@@ -609,7 +772,12 @@
     "location": "White Cavern",
     "date": "2018-08-17T13:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 208,
@@ -626,7 +794,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-17T14:50:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 224,
@@ -643,7 +816,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-18T09:41:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 240,
@@ -660,7 +838,8 @@
     "location": "Tow Graveyard",
     "date": "2018-08-18T09:44:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {}
   },
   {
     "id": 256,
@@ -677,7 +856,12 @@
     "location": "Troll Lair",
     "date": "2018-08-18T00:01:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 288,
@@ -694,7 +878,12 @@
     "location": "Darak",
     "date": "2018-08-18T13:12:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 172095,
+      "y": 672495,
+      "z": -18252
+    }
   },
   {
     "id": 304,
@@ -711,7 +900,12 @@
     "location": "Qora Qum",
     "date": "2018-08-18T13:20:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 320,
@@ -728,7 +922,12 @@
     "location": "Kall's Bridge",
     "date": "2018-08-19T09:17:00Z",
     "story_points": 0,
-    "special": "a notorious snow wisp"
+    "special": "a notorious snow wisp",
+    "coordinates": {
+      "x": 288992,
+      "y": 187481,
+      "z": 22171
+    }
   },
   {
     "id": 336,
@@ -745,7 +944,12 @@
     "location": "Troll Lair",
     "date": "2018-08-19T18:44:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 352,
@@ -762,7 +966,12 @@
     "location": "Troll Lair",
     "date": "2018-08-19T18:50:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 368,
@@ -779,7 +988,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-20T19:12:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 384,
@@ -796,7 +1010,12 @@
     "location": "Troll Lair",
     "date": "2018-08-20T19:22:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 400,
@@ -813,7 +1032,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-21T18:38:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 416,
@@ -830,7 +1054,12 @@
     "location": "White Cavern",
     "date": "2018-08-26T10:28:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 432,
@@ -847,7 +1076,12 @@
     "location": "Smokey Pines",
     "date": "2018-08-26T10:32:00Z",
     "story_points": 0,
-    "special": "a nightmare"
+    "special": "a nightmare",
+    "coordinates": {
+      "x": 558858,
+      "y": 98946,
+      "z": -14246
+    }
   },
   {
     "id": 448,
@@ -864,7 +1098,12 @@
     "location": "Tann Mines",
     "date": "2018-08-26T11:22:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 464,
@@ -881,7 +1120,12 @@
     "location": "Tann Mines",
     "date": "2018-08-26T11:22:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 480,
@@ -898,7 +1142,12 @@
     "location": "White Cavern entrance",
     "date": "2018-08-29T19:37:00Z",
     "story_points": 0,
-    "special": "Caterina the witch"
+    "special": "Caterina the witch",
+    "coordinates": {
+      "x": 143038,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 496,
@@ -915,7 +1164,12 @@
     "location": "Winter Tower",
     "date": "2018-08-30T11:21:00Z",
     "story_points": 0,
-    "special": "Everard the witch"
+    "special": "Everard the witch",
+    "coordinates": {
+      "x": 199450,
+      "y": 157320,
+      "z": 15670
+    }
   },
   {
     "id": 512,
@@ -932,7 +1186,12 @@
     "location": "Winter Tower",
     "date": "2018-08-31T18:04:00Z",
     "story_points": 0,
-    "special": "Roana the witch"
+    "special": "Roana the witch",
+    "coordinates": {
+      "x": 199450,
+      "y": 157320,
+      "z": 15670
+    }
   },
   {
     "id": 528,
@@ -949,7 +1208,12 @@
     "location": "The Gate of Muzlatilgan Do'zax",
     "date": "2018-08-31T18:23:00Z",
     "story_points": 0,
-    "special": "a stygian serpent"
+    "special": "a stygian serpent",
+    "coordinates": {
+      "x": 90942,
+      "y": 684191,
+      "z": -17556
+    }
   },
   {
     "id": 544,
@@ -966,7 +1230,12 @@
     "location": "White Cavern",
     "date": "2018-08-31T18:50:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 560,
@@ -983,7 +1252,12 @@
     "location": "Winter Tower",
     "date": "2018-08-31T18:59:00Z",
     "story_points": 0,
-    "special": "Marian the witch"
+    "special": "Marian the witch",
+    "coordinates": {
+      "x": 199450,
+      "y": 157320,
+      "z": 15670
+    }
   },
   {
     "id": 576,
@@ -1000,7 +1274,12 @@
     "location": "Winter Tower",
     "date": "2018-09-13T10:29:00Z",
     "story_points": 0,
-    "special": "Guy the witch"
+    "special": "Guy the witch",
+    "coordinates": {
+      "x": 199450,
+      "y": 157320,
+      "z": 15670
+    }
   },
   {
     "id": 592,
@@ -1017,7 +1296,12 @@
     "location": "Rat Pit",
     "date": "2018-09-20T07:54:00Z",
     "story_points": 0,
-    "special": "a nightmare"
+    "special": "a nightmare",
+    "coordinates": {
+      "x": 626420,
+      "y": 181000,
+      "z": -17010
+    }
   },
   {
     "id": 608,
@@ -1034,7 +1318,12 @@
     "location": "Rat Pit",
     "date": "2018-09-20T07:58:00Z",
     "story_points": 0,
-    "special": "a nightmare"
+    "special": "a nightmare",
+    "coordinates": {
+      "x": 626420,
+      "y": 181000,
+      "z": -17010
+    }
   },
   {
     "id": 624,
@@ -1051,7 +1340,12 @@
     "location": "Black Trench",
     "date": "2018-09-20T08:17:00Z",
     "story_points": 0,
-    "special": "a water elemental lord"
+    "special": "a water elemental lord",
+    "coordinates": {
+      "x": 600740,
+      "y": 134910,
+      "z": -18370
+    }
   },
   {
     "id": 640,
@@ -1068,7 +1362,12 @@
     "location": "White Cavern",
     "date": "2018-12-08T13:14:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 656,
@@ -1085,7 +1384,12 @@
     "location": "White Cavern",
     "date": "2018-12-08T13:16:00Z",
     "story_points": 0,
-    "special": "a nightmare"
+    "special": "a nightmare",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 672,
@@ -1102,7 +1406,12 @@
     "location": "Maze Entrance",
     "date": "2018-12-08T13:48:00Z",
     "story_points": 0,
-    "special": "a notorious black wisp"
+    "special": "a notorious black wisp",
+    "coordinates": {
+      "x": 140331,
+      "y": 131800,
+      "z": -7094
+    }
   },
   {
     "id": 688,
@@ -1119,7 +1428,12 @@
     "location": "Maze Entrance",
     "date": "2018-12-08T14:21:00Z",
     "story_points": 0,
-    "special": "a giant frost gazer"
+    "special": "a giant frost gazer",
+    "coordinates": {
+      "x": 140331,
+      "y": 131800,
+      "z": -7094
+    }
   },
   {
     "id": 704,
@@ -1136,7 +1450,12 @@
     "location": "Smokey Pines",
     "date": "2018-12-08T20:17:00Z",
     "story_points": 0,
-    "special": "a notorious ice elemental"
+    "special": "a notorious ice elemental",
+    "coordinates": {
+      "x": 558858,
+      "y": 98946,
+      "z": -14246
+    }
   },
   {
     "id": 15,
@@ -1153,7 +1472,12 @@
     "location": "Dunes",
     "date": "2018-08-20T08:03:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 31,
@@ -1170,7 +1494,12 @@
     "location": "Qora Qum",
     "date": "2018-08-20T08:18:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 47,
@@ -1187,7 +1516,12 @@
     "location": "Dunes",
     "date": "2018-08-20T08:30:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 63,
@@ -1204,7 +1538,12 @@
     "location": "Qora Qum Entrance",
     "date": "2018-08-20T08:40:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 95650,
+      "y": 696540,
+      "z": -17650
+    }
   },
   {
     "id": 79,
@@ -1221,7 +1560,12 @@
     "location": "Qora Qum",
     "date": "2018-08-20T09:05:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 95,
@@ -1238,7 +1582,12 @@
     "location": "Qora Qum",
     "date": "2018-08-20T09:11:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 111,
@@ -1255,7 +1604,12 @@
     "location": "Newbie Dungeon Entrance",
     "date": "2018-08-20T09:36:00Z",
     "story_points": 0,
-    "special": "trade"
+    "special": "trade",
+    "coordinates": {
+      "x": 303960,
+      "y": -114630,
+      "z": -15420
+    }
   },
   {
     "id": 127,
@@ -1272,7 +1626,12 @@
     "location": "Newbie Dungeon Entrance",
     "date": "2018-08-20T09:37:00Z",
     "story_points": 0,
-    "special": "trade"
+    "special": "trade",
+    "coordinates": {
+      "x": 303960,
+      "y": -114630,
+      "z": -15420
+    }
   },
   {
     "id": 143,
@@ -1289,7 +1648,8 @@
     "location": "Tow Graveyard",
     "date": "2018-08-20T15:22:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {}
   },
   {
     "id": 159,
@@ -1306,7 +1666,12 @@
     "location": "Dunes",
     "date": "2018-08-20T15:36:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 175,
@@ -1323,7 +1688,12 @@
     "location": "Qora Qum",
     "date": "2018-08-20T15:47:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 191,
@@ -1340,7 +1710,12 @@
     "location": "Qora Qum",
     "date": "2018-08-20T15:53:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 207,
@@ -1357,7 +1732,12 @@
     "location": "Dunes",
     "date": "2018-08-20T16:11:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 223,
@@ -1374,7 +1754,12 @@
     "location": "Qora Qum",
     "date": "2018-08-20T17:24:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 239,
@@ -1391,7 +1776,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-21T00:34:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 255,
@@ -1408,7 +1798,12 @@
     "location": "Dunes",
     "date": "2018-08-21T00:41:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 271,
@@ -1425,7 +1820,12 @@
     "location": "Bear Cave",
     "date": "2018-08-21T00:57:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 632550,
+      "y": 113800,
+      "z": -11610
+    }
   },
   {
     "id": 287,
@@ -1442,7 +1842,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-21T18:54:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 303,
@@ -1459,7 +1864,12 @@
     "location": "Dunes",
     "date": "2018-08-21T19:07:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 319,
@@ -1476,7 +1886,12 @@
     "location": "Dunes",
     "date": "2018-08-22T00:24:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 335,
@@ -1493,7 +1908,12 @@
     "location": "Kall's Bridge",
     "date": "2018-08-22T00:27:00Z",
     "story_points": 0,
-    "special": "a notorious snow wisp"
+    "special": "a notorious snow wisp",
+    "coordinates": {
+      "x": 288992,
+      "y": 187481,
+      "z": 22171
+    }
   },
   {
     "id": 351,
@@ -1510,7 +1930,12 @@
     "location": "The Abyss",
     "date": "2018-08-22T00:29:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 575162,
+      "y": 635161,
+      "z": -4218
+    }
   },
   {
     "id": 367,
@@ -1527,7 +1952,12 @@
     "location": "White Cavern",
     "date": "2018-08-22T00:39:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 383,
@@ -1544,7 +1974,12 @@
     "location": "Smokey Pines",
     "date": "2018-08-22T00:41:00Z",
     "story_points": 0,
-    "special": "a nightmare"
+    "special": "a nightmare",
+    "coordinates": {
+      "x": 558858,
+      "y": 98946,
+      "z": -14246
+    }
   },
   {
     "id": 399,
@@ -1561,7 +1996,12 @@
     "location": "Dunes",
     "date": "2018-08-22T00:49:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 415,
@@ -1578,7 +2018,12 @@
     "location": "Dunes",
     "date": "2018-08-22T13:42:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 431,
@@ -1595,7 +2040,12 @@
     "location": "Qora Qum",
     "date": "2018-08-22T13:54:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 447,
@@ -1612,7 +2062,12 @@
     "location": "Dunes",
     "date": "2018-08-22T19:00:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 463,
@@ -1629,7 +2084,12 @@
     "location": "The Gate of Muzlatilgan Do'zax",
     "date": "2018-08-22T19:23:00Z",
     "story_points": 0,
-    "special": "a stygian serpent"
+    "special": "a stygian serpent",
+    "coordinates": {
+      "x": 90942,
+      "y": 684191,
+      "z": -17556
+    }
   },
   {
     "id": 479,
@@ -1646,7 +2106,12 @@
     "location": "The Gate of Muzlatilgan Do'zax",
     "date": "2018-08-22T19:32:00Z",
     "story_points": 0,
-    "special": "a stygian serpent"
+    "special": "a stygian serpent",
+    "coordinates": {
+      "x": 90942,
+      "y": 684191,
+      "z": -17556
+    }
   },
   {
     "id": 495,
@@ -1663,7 +2128,12 @@
     "location": "The Abyss",
     "date": "2018-08-22T19:43:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 575162,
+      "y": 635161,
+      "z": -4218
+    }
   },
   {
     "id": 511,
@@ -1680,7 +2150,12 @@
     "location": "Smokey Pines",
     "date": "2018-08-22T20:00:00Z",
     "story_points": 0,
-    "special": "a nightmare"
+    "special": "a nightmare",
+    "coordinates": {
+      "x": 558858,
+      "y": 98946,
+      "z": -14246
+    }
   },
   {
     "id": 527,
@@ -1697,7 +2172,12 @@
     "location": "White Cavern",
     "date": "2018-08-22T20:02:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 543,
@@ -1714,7 +2194,12 @@
     "location": "The Abyss",
     "date": "2018-08-22T20:06:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 575162,
+      "y": 635161,
+      "z": -4218
+    }
   },
   {
     "id": 559,
@@ -1731,7 +2216,12 @@
     "location": "Water Hall",
     "date": "2018-08-22T20:10:00Z",
     "story_points": 0,
-    "special": "a water elemental lord"
+    "special": "a water elemental lord",
+    "coordinates": {
+      "x": 160432,
+      "y": 130740,
+      "z": -4916
+    }
   },
   {
     "id": 575,
@@ -1748,7 +2238,12 @@
     "location": "Dunes",
     "date": "2018-08-22T21:17:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 591,
@@ -1765,7 +2260,12 @@
     "location": "Water Hall",
     "date": "2018-08-22T21:20:00Z",
     "story_points": 0,
-    "special": "a water elemental lord"
+    "special": "a water elemental lord",
+    "coordinates": {
+      "x": 160432,
+      "y": 130740,
+      "z": -4916
+    }
   },
   {
     "id": 607,
@@ -1782,7 +2282,12 @@
     "location": "White Cavern",
     "date": "2018-08-22T21:26:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 623,
@@ -1799,7 +2304,12 @@
     "location": "Smokey Pines",
     "date": "2018-08-22T21:27:00Z",
     "story_points": 0,
-    "special": "a nightmare"
+    "special": "a nightmare",
+    "coordinates": {
+      "x": 558858,
+      "y": 98946,
+      "z": -14246
+    }
   },
   {
     "id": 639,
@@ -1816,7 +2326,12 @@
     "location": "Qora Qum",
     "date": "2018-08-22T21:40:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 95320,
+      "y": 707238,
+      "z": -16808
+    }
   },
   {
     "id": 655,
@@ -1833,7 +2348,12 @@
     "location": "Dunes",
     "date": "2018-08-26T08:56:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 671,
@@ -1850,7 +2370,12 @@
     "location": "Dunes",
     "date": "2018-08-26T00:52:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 687,
@@ -1867,7 +2392,12 @@
     "location": "Water Hall",
     "date": "2018-08-26T13:02:00Z",
     "story_points": 0,
-    "special": "a water elemental lord"
+    "special": "a water elemental lord",
+    "coordinates": {
+      "x": 160432,
+      "y": 130740,
+      "z": -4916
+    }
   },
   {
     "id": 703,
@@ -1884,7 +2414,12 @@
     "location": "Dunes",
     "date": "2018-08-29T18:00:00Z",
     "story_points": 0,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 50,
@@ -1901,7 +2436,12 @@
     "location": "White Cavern",
     "date": "2018-08-19T00:46:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 707,
@@ -1915,10 +2455,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:00:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 714,
@@ -1932,10 +2477,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:01:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 748,
@@ -1949,10 +2499,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:55:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 756,
@@ -1966,10 +2521,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:56:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 712,
@@ -1983,10 +2543,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:00:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 719,
@@ -2000,10 +2565,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-15T17:01:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 720,
@@ -2020,7 +2590,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:22:00Z",
     "story_points": 2745,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 743,
@@ -2034,10 +2605,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:55:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 751,
@@ -2051,10 +2627,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:56:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 771,
@@ -2071,7 +2652,12 @@
     "location": "Tann",
     "date": "2019-09-22T20:43:00Z",
     "story_points": 100,
-    "special": "The Raid Boss"
+    "special": "The Raid Boss",
+    "coordinates": {
+      "x": 576480,
+      "y": 119660,
+      "z": -17660
+    }
   },
   {
     "id": 729,
@@ -2088,7 +2674,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:41:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 734,
@@ -2105,7 +2692,12 @@
     "location": "Troll Lair",
     "date": "2019-09-21T15:36:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 731,
@@ -2122,7 +2714,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:41:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 739,
@@ -2139,7 +2732,12 @@
     "location": "Troll Lair",
     "date": "2019-09-21T15:37:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 765,
@@ -2156,7 +2754,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 724,
@@ -2173,7 +2776,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:40:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 761,
@@ -2190,7 +2794,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 723,
@@ -2207,7 +2816,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:40:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 736,
@@ -2224,7 +2834,12 @@
     "location": "Troll Lair",
     "date": "2019-09-21T15:36:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 760,
@@ -2241,7 +2856,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 740,
@@ -2255,10 +2875,15 @@
     "primary_name": "bempa",
     "secondary_char": 0,
     "secondary_name": "NULL",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:44:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 745,
@@ -2272,10 +2897,15 @@
     "primary_name": "admin",
     "secondary_char": 931,
     "secondary_name": "bempa",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:55:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 753,
@@ -2289,10 +2919,15 @@
     "primary_name": "bempa",
     "secondary_char": 933,
     "secondary_name": "admin",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-09-22T13:56:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 759,
@@ -2309,7 +2944,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:23:00Z",
     "story_points": 1600,
-    "special": "Slothnu00c3u00a1kh the Orc Berzerker"
+    "special": "Slothnu00c3u00a1kh the Orc Berzerker",
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 776,
@@ -2326,7 +2966,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-28T09:15:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 777,
@@ -2343,7 +2984,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-28T09:15:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 788,
@@ -2357,10 +2999,15 @@
     "primary_name": "bempa",
     "secondary_char": 0,
     "secondary_name": "NULL",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2019-11-17T18:36:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 783,
@@ -2377,7 +3024,12 @@
     "location": "Midaen Quarry",
     "date": "2019-09-29T09:14:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 448440,
+      "y": 105730,
+      "z": 10020
+    }
   },
   {
     "id": 780,
@@ -2394,7 +3046,12 @@
     "location": "Dourt Hills",
     "date": "2019-09-29T09:06:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 481760,
+      "y": 115970,
+      "z": 15323
+    }
   },
   {
     "id": 292,
@@ -2411,7 +3068,12 @@
     "location": "Newbie Dungeon Entrance",
     "date": "2018-08-18T00:57:00Z",
     "story_points": 0,
-    "special": "crafted"
+    "special": "crafted",
+    "coordinates": {
+      "x": 303960,
+      "y": -114630,
+      "z": -15420
+    }
   },
   {
     "id": 784,
@@ -2428,7 +3090,12 @@
     "location": "Midaen Quarry",
     "date": "2019-09-29T09:15:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 448440,
+      "y": 105730,
+      "z": 10020
+    }
   },
   {
     "id": 274,
@@ -2445,7 +3112,12 @@
     "location": "Newbie Dungeon Entrance",
     "date": "2018-08-17T14:47:00Z",
     "story_points": 0,
-    "special": "crafted"
+    "special": "crafted",
+    "coordinates": {
+      "x": 303960,
+      "y": -114630,
+      "z": -15420
+    }
   },
   {
     "id": 290,
@@ -2462,7 +3134,12 @@
     "location": "Newbie Dungeon Entrance",
     "date": "2018-08-17T14:54:00Z",
     "story_points": 0,
-    "special": "trade"
+    "special": "trade",
+    "coordinates": {
+      "x": 303960,
+      "y": -114630,
+      "z": -15420
+    }
   },
   {
     "id": 306,
@@ -2479,7 +3156,12 @@
     "location": "Tann Mines",
     "date": "2018-08-17T22:17:00Z",
     "story_points": 0,
-    "special": "trade"
+    "special": "trade",
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 322,
@@ -2493,10 +3175,15 @@
     "primary_name": "Shea",
     "secondary_char": 939,
     "secondary_name": "Ramas",
-    "location": "Gru00fbknu00fbb's Camp",
+    "location": "Gruknub's Camp",
     "date": "2018-08-17T23:22:00Z",
     "story_points": 0,
-    "special": "corpse"
+    "special": "corpse",
+    "coordinates": {
+      "x": 519964,
+      "y": 73350,
+      "z": -2716
+    }
   },
   {
     "id": 338,
@@ -2513,7 +3200,12 @@
     "location": "Tann Mines",
     "date": "2018-08-18T09:43:00Z",
     "story_points": 0,
-    "special": "trade"
+    "special": "trade",
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 354,
@@ -2530,7 +3222,12 @@
     "location": "Tow",
     "date": "2018-08-18T10:07:00Z",
     "story_points": 0,
-    "special": "trade"
+    "special": "trade",
+    "coordinates": {
+      "x": 627640,
+      "y": 187810,
+      "z": -16570
+    }
   },
   {
     "id": 370,
@@ -2547,7 +3244,12 @@
     "location": "White Cavern",
     "date": "2018-08-18T11:25:00Z",
     "story_points": 0,
-    "special": "corpse"
+    "special": "corpse",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 386,
@@ -2564,7 +3266,12 @@
     "location": "Newbie Dungeon Entrance",
     "date": "2018-08-18T11:31:00Z",
     "story_points": 0,
-    "special": "corpse"
+    "special": "corpse",
+    "coordinates": {
+      "x": 303960,
+      "y": -114630,
+      "z": -15420
+    }
   },
   {
     "id": 402,
@@ -2581,7 +3288,12 @@
     "location": "Abandonned fishing hut",
     "date": "2018-08-18T00:14:00Z",
     "story_points": 0,
-    "special": "corpse"
+    "special": "corpse",
+    "coordinates": {
+      "x": 552646,
+      "y": 145698,
+      "z": -16351
+    }
   },
   {
     "id": 418,
@@ -2598,7 +3310,12 @@
     "location": "Newbie Dungeon Entrance",
     "date": "2018-08-18T00:19:00Z",
     "story_points": 0,
-    "special": "corpse"
+    "special": "corpse",
+    "coordinates": {
+      "x": 303960,
+      "y": -114630,
+      "z": -15420
+    }
   },
   {
     "id": 434,
@@ -2615,7 +3332,12 @@
     "location": "White Cavern",
     "date": "2018-08-18T18:36:00Z",
     "story_points": 0,
-    "special": "corpse"
+    "special": "corpse",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 450,
@@ -2632,7 +3354,12 @@
     "location": "White Cavern entrance",
     "date": "2018-08-18T18:43:00Z",
     "story_points": 0,
-    "special": "trade"
+    "special": "trade",
+    "coordinates": {
+      "x": 143038,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 466,
@@ -2649,7 +3376,12 @@
     "location": "Tann Mines",
     "date": "2018-08-19T13:23:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 482,
@@ -2666,7 +3398,12 @@
     "location": "Tann Mines",
     "date": "2018-08-19T13:28:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 498,
@@ -2683,7 +3420,12 @@
     "location": "White Cavern",
     "date": "2018-08-21T23:27:00Z",
     "story_points": 0,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {
+      "x": 144868,
+      "y": 230195,
+      "z": -3159
+    }
   },
   {
     "id": 514,
@@ -2700,7 +3442,12 @@
     "location": "Tann Mines",
     "date": "2018-08-22T21:25:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 530,
@@ -2717,7 +3464,12 @@
     "location": "Tann Mines",
     "date": "2018-08-22T21:25:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 546,
@@ -2734,7 +3486,12 @@
     "location": "Troll Lair",
     "date": "2018-08-23T20:32:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 562,
@@ -2751,7 +3508,12 @@
     "location": "Troll Lair",
     "date": "2018-08-23T20:36:00Z",
     "story_points": 0,
-    "special": "a cave troll"
+    "special": "a cave troll",
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 578,
@@ -2768,7 +3530,12 @@
     "location": "Tann Mines",
     "date": "2018-08-24T18:22:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 594,
@@ -2785,7 +3552,12 @@
     "location": "Tann Mines",
     "date": "2018-08-24T18:24:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 582443,
+      "y": 108589,
+      "z": -17257
+    }
   },
   {
     "id": 610,
@@ -2802,7 +3574,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-25T10:17:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 626,
@@ -2819,7 +3596,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-25T10:18:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 642,
@@ -2836,7 +3618,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-25T10:19:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 658,
@@ -2853,7 +3640,12 @@
     "location": "New Mine Entrance",
     "date": "2018-08-25T10:20:00Z",
     "story_points": 0,
-    "special": "gift"
+    "special": "gift",
+    "coordinates": {
+      "x": 581670,
+      "y": 93060,
+      "z": -10660
+    }
   },
   {
     "id": 674,
@@ -2870,7 +3662,12 @@
     "location": "Tann",
     "date": "2018-08-25T17:39:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 576480,
+      "y": 119660,
+      "z": -17660
+    }
   },
   {
     "id": 726,
@@ -2887,7 +3684,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:40:00Z",
     "story_points": 0,
-    "special": "corpse"
+    "special": "corpse",
+    "coordinates": {}
   },
   {
     "id": 733,
@@ -2904,7 +3702,12 @@
     "location": "Troll Lair",
     "date": "2019-09-21T15:35:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 766,
@@ -2921,7 +3724,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": "ground"
+    "special": "ground",
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 773,
@@ -2938,7 +3746,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-28T09:04:00Z",
     "story_points": 1000,
-    "special": "a skeletal king"
+    "special": "a skeletal king",
+    "coordinates": {}
   },
   {
     "id": 778,
@@ -2955,7 +3764,12 @@
     "location": "Dourt Hills",
     "date": "2019-09-29T09:05:00Z",
     "story_points": 1000,
-    "special": "a big bad wolf"
+    "special": "a big bad wolf",
+    "coordinates": {
+      "x": 481760,
+      "y": 115970,
+      "z": 15323
+    }
   },
   {
     "id": 782,
@@ -2972,7 +3786,12 @@
     "location": "Midaen Quarry",
     "date": "2019-09-29T09:13:00Z",
     "story_points": 10000,
-    "special": "Tsuchigumo"
+    "special": "Tsuchigumo",
+    "coordinates": {
+      "x": 448440,
+      "y": 105730,
+      "z": 10020
+    }
   },
   {
     "id": 797,
@@ -2989,7 +3808,12 @@
     "location": "Rocky Beach",
     "date": "2019-11-29T23:10:00Z",
     "story_points": 200,
-    "special": "a ghost [vile]"
+    "special": "a ghost [vile]",
+    "coordinates": {
+      "x": 648141,
+      "y": 155729,
+      "z": -35615
+    }
   },
   {
     "id": 774,
@@ -3006,7 +3830,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-28T09:09:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 727,
@@ -3023,7 +3848,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:40:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 737,
@@ -3040,7 +3866,12 @@
     "location": "Troll Lair",
     "date": "2019-09-21T15:37:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 764,
@@ -3057,7 +3888,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 721,
@@ -3074,7 +3910,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:40:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 762,
@@ -3091,7 +3928,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 722,
@@ -3108,7 +3950,8 @@
     "location": "Old Mine Office",
     "date": "2019-09-16T20:40:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {}
   },
   {
     "id": 735,
@@ -3125,7 +3968,12 @@
     "location": "Troll Lair",
     "date": "2019-09-21T15:36:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 519680,
+      "y": 104800,
+      "z": 3490
+    }
   },
   {
     "id": 768,
@@ -3142,7 +3990,12 @@
     "location": "Cross roads",
     "date": "2019-09-22T20:33:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 560910,
+      "y": 104330,
+      "z": -15340
+    }
   },
   {
     "id": 627,
@@ -3159,7 +4012,12 @@
     "location": "Dunes",
     "date": "2018-08-20T08:30:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 103170,
+      "y": 604060,
+      "z": -17945
+    }
   },
   {
     "id": 643,
@@ -3176,6 +4034,11 @@
     "location": "Tow",
     "date": "2018-08-24T19:31:00Z",
     "story_points": 0,
-    "special": 0
+    "special": 0,
+    "coordinates": {
+      "x": 627640,
+      "y": 187810,
+      "z": -16570
+    }
   }
 ]
