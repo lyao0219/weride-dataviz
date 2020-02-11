@@ -41,12 +41,32 @@ function App() {
 
   return (
     <div className="App">
-      <Topbar selection={getRandomSubarray(werideData, 12)} />
-      <Map name="awesome map" itemData={getItemEvents(3)} onClickEvent={onClickEvent} />
-      <Info selection={activeLocation} />
-      <Legend />
+      <div className="container">
+        <div className="row">
+          <Topbar selection={getRandomSubarray(werideData, 12)} />
+        </div>
+        <div className="row">
+          <div className="col-lg-8 col-md-12 col-sm-12">
+            <Map name="awesome map" itemData={getItemEvents(3)} onClickEvent={onClickEvent} />
+          </div>
+          <div className="col-lg-4 col-md-12 col-sm-12">
+            <div className="card">
+              <div className="card-body"><Info selection={activeLocation} /></div>
+            </div>
+            <div className="card" style={styles.topBuffer}>
+              <div className="card-body"><Legend /></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
+
+const styles = {
+  topBuffer: {
+    marginTop: 25,
+  },
+};
 
 export default App;
