@@ -1,12 +1,13 @@
-import React, { memo, Component } from 'react'
-import PropTypes from 'prop-types'
-import * as d3 from 'd3';
+import React, { memo, Component } from "react";
+import PropTypes from "prop-types";
+import * as d3 from "d3";
 
-import worldMapImage from '../assets/worldMap3.jpg';
+import worldMapImage from "../assets/worldMap3.jpg";
 
 class Map extends Component {
   componentDidMount() {
-    const { itemData } = this.props;
+    const { itemData, onClickEvent } = this.props;
+
     const data = [
       { coordinates: { x: 8000, y: 0 } },
       ...itemData,
@@ -18,50 +19,50 @@ class Map extends Component {
       right: 20,
       bottom: 20,
       left: 20
-    }
+    };
 
     const div = d3.select(this.refs.weride_map).append("div")
       .attr("class", "tooltip")
       .style("opacity", 0);
 
-    //making graph responsive
-    const default_width = 700 - margin.left - margin.right;
-    const default_height = 700 - margin.top - margin.bottom;
-    const default_ratio = default_width / default_height;
-    let current_width;
-    let current_height;
-    let current_ratio;
+    // making graph responsive
+    const defaultWidth = 700 - margin.left - margin.right;
+    const defaultHeight = 700 - margin.top - margin.bottom;
+    const defaultRatio = defaultWidth / defaultHeight;
+    let currentWidth;
+    let currentHeight;
+    let currentRatio;
     let height;
     let width;
 
     // Determine current size, which determines vars
-    function set_size() {
-      current_width = window.innerWidth;
-      current_height = window.innerHeight;
-      current_ratio = current_width / current_height;
-      let h,w;
+    function setSize() {
+      currentWidth = window.innerWidth;
+      currentHeight = window.innerHeight;
+      currentRatio = currentWidth / currentHeight;
+      let h; let w;
       // desktop
-      if (current_ratio > default_ratio) {
-        h = default_height;
-        w = default_width;
+      if (currentRatio > defaultRatio) {
+        h = defaultHeight;
+        w = defaultWidth;
         // mobile
       } else {
-        margin.left = 40
-        w = current_width - 40;
-        h = w / default_ratio;
+        margin.left = 40;
+        w = currentWidth - 40;
+        h = w / defaultRatio;
       }
       // Set new width and height based on graph dimensions
       width = w - margin.top - margin.right;
       height = h - margin.top - margin.bottom;
-    };
-    set_size();
-    //end responsive graph code
+    }
+    setSize();
+    // end responsive graph code
 
 
     // format the data
-    data.forEach(function (d) {
-      d.coordinates.x = +d.coordinates.x;
-      d.coordinates.y = +d.coordinates.y;
+    data.forEach((d) => {
+      d.coordinates.x = +d.coordinates.x; // eslint-disable-line
+      d.coordinates.y = +d.coordinates.y; // eslint-disable-line
     });
 
     // set the ranges
@@ -76,21 +77,12 @@ class Map extends Component {
       return d.coordinates.y;
     })]);
 
-    // define the line
-    const valueline = d3.line()
-      .x(function (d) {
-        return x(d.coordinates.x);
-      })
-      .y(function (d) {
-        return y(d.coordinates.y); 
-      });
-
     const svg = d3.select("#scatter").append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
       .append("g")
       .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+        `translate(${margin.left},${margin.top})`);
 
     // add the background
     const defs = svg.append("defs");
@@ -98,18 +90,18 @@ class Map extends Component {
     defs.append("pattern")
       .attr("id", "map")
       .attr("patternUnits", "userSpaceOnUse")
-      .attr("width", default_width)
-      .attr("height", default_height)
+      .attr("width", defaultWidth)
+      .attr("height", defaultHeight)
       .append("svg:image")
       .attr("xlink:href", worldMapImage)
-      .attr("width", default_width - margin.right * 2)
-      .attr("height", default_height - margin.bottom * 2)
+      .attr("width", defaultWidth - margin.right * 2)
+      .attr("height", defaultHeight - margin.bottom * 2)
       .attr("x", 0)
       .attr("y", 0);
 
     svg.append("rect")
-      .attr("width", default_width)
-      .attr("height", default_height)
+      .attr("width", defaultWidth)
+      .attr("height", defaultHeight)
       .attr("x", 0)
       .attr("y", 0)
       .attr("fill", "url(#map)");
@@ -129,7 +121,7 @@ class Map extends Component {
 
 
     // Add the lines
-    let tempData = data.slice(1, data.length - 1);
+    const tempData = data.slice(1, data.length - 1);
     for (let i = 0; i < tempData.length - 1; i++) {
       svg.append("line")
         .attr("class", "line")
@@ -143,7 +135,7 @@ class Map extends Component {
     }
 
     // Add the data points
-    const path = svg.selectAll("dot")
+    svg.selectAll("dot")
       .data(data)
       .enter().append("circle")
       .attr("r", 5)
@@ -156,59 +148,62 @@ class Map extends Component {
       .attr("stroke", "#32CD32")
       .attr("stroke-width", 1.5)
       .attr("fill", "#FFFFFF")
-      .on("mouseover", (d, i) => {
+      .on("mouseover", (d) => {
         d3.select(this).transition()
-          .duration('100')
+          .duration("100")
           .attr("r", 7);
         div.transition()
           .duration(100)
           .style("opacity", 1);
         div.html(d.location)
-          .style("left", (d3.event.pageX + 10) + "px")
-          .style("top", (d3.event.pageY - 15) + "px");
+          .style("left", `${d3.event.pageX + 10}px`)
+          .style("top", `${d3.event.pageY - 15}px`);
       })
-      .on("mouseout", (d, i) => {
+      .on("mouseout", () => {
         d3.select(this).transition()
           .duration("200")
           .attr("r", 5);
         div.transition()
           .duration("200")
           .style("opacity", 0);
+      })
+      .on("click", (d) => {
+        onClickEvent(d);
       });
 
     // Add the axis
     if (width < 500) {
       svg.append("g")
-        .attr("transform", "translate(0," + height + ")")
+        .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x).ticks(5));
     } else {
       svg.append("g")
-        .attr("transform", "translate(0," + height + ")")
+        .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x));
     }
 
     svg.append("g")
-      .call(d3.axisLeft(y).tickFormat(function (d) {
+      .call(d3.axisLeft(y).tickFormat((d) => {
         return d;
       }));
   }
 
   render() {
-    const { name } = this.props;
     return (
-        <div className="map" ref="weride_map">
-          <div id="scatter" />
-        </div>
+      <div className="map" ref="weride_map">
+        <div id="scatter" />
+      </div>
     );
   }
 }
 
 Map.defaultProps = {
-  name: "",
+  onClickEvent: () => {},
 };
 
 Map.propTypes = {
-  name: PropTypes.string,
+  itemData: PropTypes.object.isRequired,
+  onClickEvent: PropTypes.func,
 };
 
-export default memo(Map)
+export default memo(Map);
