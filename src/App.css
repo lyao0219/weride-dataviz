@@ -11,13 +11,13 @@ h3 {
 }
 
 .thumbnail-container {
-  overflow-x:scroll;
+  overflow-y: scroll;
   padding: 0 15px;
   margin-bottom: 20px;
+  max-height: 125px;
 }
 
 .thumbnail-list {
-  white-space:nowrap;
   list-style: none;
   padding-inline-start: 0px
 }

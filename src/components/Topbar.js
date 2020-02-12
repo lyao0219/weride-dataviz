@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -14,7 +15,7 @@ import sword from "../svg/sword.svg";
 
 class Topbar extends React.Component {
   render() {
-    const { selection } = this.props;
+    const { selection, onClickItem } = this.props;
     return (
       <div className="items">
         <h2 className="item_header">Items</h2>
@@ -28,8 +29,17 @@ class Topbar extends React.Component {
 
         <div className="thumbnail-container">
           <ul className="thumbnail-list">
-            {selection.map((item, index) => {
-              return <Item key={index} item={item} />; // eslint-disable-line
+            {selection.map((item) => {
+              return (
+                <span
+                  key={item.item}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => onClickItem(item)}
+                >
+                  <Item item={item} />
+                </span>
+              );
             })}
           </ul>
         </div>
@@ -44,6 +54,7 @@ Topbar.defaultProps = {
 
 Topbar.propTypes = {
   selection: PropTypes.array,
+  onClickItem: PropTypes.func.isRequired,
 };
 
 class Item extends React.Component {

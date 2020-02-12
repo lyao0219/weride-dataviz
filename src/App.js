@@ -12,25 +12,25 @@ import Legend from "./components/Legend";
 
 import werideData from "./data/dataviz.json";
 
-function getRandomSubarray(arr, size) {
-  const shuffled = arr.slice(0); let i = arr.length; let temp; let
-    index;
-  while (i--) {
-    index = Math.floor((i + 1) * Math.random());
-    temp = shuffled[index];
-    shuffled[index] = shuffled[i];
-    shuffled[i] = temp;
-  }
-  return shuffled.slice(0, size);
-}
+function extractItems(data) {
+  const newArray = [];
+  data.map((item) => {
+    const foundItem = _.find(newArray, ["item_name", item.item_name]);
+    if (foundItem) {
+      return item;
+    }
 
-function getItemEvents(item) {
-  const result = _.filter(werideData, ["item", item]);
-  return _.sortBy(result, (o) => moment(o.date));
+    newArray.push(item);
+    return item;
+  });
+
+  return newArray;
 }
 
 function App() {
   const [activeLocation, setActiveLocation] = useState({});
+  const [activeItem, setActiveItem] = useState([]);
+
   const onClickEvent = (event) => {
     const locationEvents = _.filter(werideData, {
       "item_name": event.item_name,
@@ -39,22 +39,31 @@ function App() {
     setActiveLocation(locationEvents);
   };
 
+  const onClickItem = (item) => {
+    const result = _.filter(werideData, ["item", item.item]);
+    setActiveItem(_.sortBy(result, (o) => moment(o.date)));
+  };
+
   return (
     <div className="App">
       <div className="container">
         <div className="row">
-          <Topbar selection={getRandomSubarray(werideData, 12)} />
+          <Topbar selection={extractItems(werideData)} onClickItem={onClickItem} />
         </div>
         <div className="row">
           <div className="col-lg-8 col-md-12 col-sm-12">
-            <Map name="awesome map" itemData={getItemEvents(3)} onClickEvent={onClickEvent} />
+            <Map name="awesome map" itemData={activeItem} onClickEvent={onClickEvent} />
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="card">
-              <div className="card-body"><Info selection={activeLocation} /></div>
+              <div className="card-body">
+                <Info selection={activeLocation} />
+              </div>
             </div>
             <div className="card" style={styles.topBuffer}>
-              <div className="card-body"><Legend /></div>
+              <div className="card-body">
+                <Legend />
+              </div>
             </div>
           </div>
         </div>

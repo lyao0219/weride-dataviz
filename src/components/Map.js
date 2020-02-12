@@ -1,11 +1,25 @@
 import React, { memo, Component } from "react";
 import PropTypes from "prop-types";
 import * as d3 from "d3";
+import _ from "lodash";
 
 import worldMapImage from "../assets/worldMap3.jpg";
 
 class Map extends Component {
   componentDidMount() {
+    this._drawMap();
+  }
+
+  componentDidUpdate(prevProps) {
+    const { itemData } = this.props;
+    if (_.isEqual(itemData, prevProps.itemData)) return;
+
+    d3.select(this.refs.weride_map).select("svg").remove();
+    d3.select(this.refs.weride_map).select(".tooltip").remove();
+    this._drawMap();
+  }
+
+  _drawMap = () => {
     const { itemData, onClickEvent } = this.props;
 
     const data = [
@@ -149,18 +163,18 @@ class Map extends Component {
       .attr("stroke-width", 1.5)
       .attr("fill", "#FFFFFF")
       .on("mouseover", (d) => {
-        d3.select(this).transition()
+        d3.select(d3.event.target).transition()
           .duration("100")
           .attr("r", 7);
         div.transition()
           .duration(100)
           .style("opacity", 1);
         div.html(d.location)
-          .style("left", `${d3.event.pageX + 10}px`)
-          .style("top", `${d3.event.pageY - 15}px`);
+          .style("left", `${d3.select(d3.event.target).attr("cx") + 10}px`)
+          .style("top", `${d3.select(d3.event.target).attr("cy") - 15}px`);
       })
       .on("mouseout", () => {
-        d3.select(this).transition()
+        d3.select(d3.event.target).transition()
           .duration("200")
           .attr("r", 5);
         div.transition()
