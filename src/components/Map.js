@@ -167,17 +167,21 @@ class Map extends Component {
     const lineColor = getRandomColor();
     for (let i = 0; i < tempData.length - 1; i++) {
       const alpha = i > 0 ? i * opacityTick : opacityTick;
-      svg.append("line")
-        .attr("class", "line")
-        .attr("x1", x(tempData[i].coordinates.x))
-        .attr("y1", y(tempData[i].coordinates.y))
-        .attr("x2", x(tempData[i + 1].coordinates.x - 20))
-        .attr("y2", y(tempData[i + 1].coordinates.y - 20))
-        .attr("stroke-width", "3")
-        .attr("stroke", lineColor)
-        .attr("stroke-linecap", "round")
-        .attr("stroke-opacity", alpha)
-        .attr("marker-end", "url(#arrow)");
+      // don't draw line if the events are in the same location
+      if (tempData[i].coordinates.x !== tempData[i + 1].coordinates.x
+        || tempData[i].coordinates.y !== tempData[i + 1].coordinates.y) {
+        svg.append("line")
+          .attr("class", "line")
+          .attr("x1", x(tempData[i].coordinates.x))
+          .attr("y1", y(tempData[i].coordinates.y))
+          .attr("x2", x(tempData[i + 1].coordinates.x - 20))
+          .attr("y2", y(tempData[i + 1].coordinates.y - 20))
+          .attr("stroke-width", "3")
+          .attr("stroke", lineColor)
+          .attr("stroke-linecap", "round")
+          .attr("stroke-opacity", alpha)
+          .attr("marker-end", "url(#arrow)"); 
+        }
     }
 
     // Add the data points
