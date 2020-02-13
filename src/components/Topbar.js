@@ -27,19 +27,18 @@ function Topbar(props) {
         <option value="oldest">Oldest</option>
       </select>
 
-      <div class="container" style={styles.container}>
-        <div class="row row-cols-4 row-cols-md-6">
+      <div className="container" style={styles.container}>
+        <div className="row row-cols-4 row-cols-md-6">
           {selection.map((item) => {
             let cardClass = "card";
             if (item.item === activeItem.item) {
               cardClass = "card text-white bg-success";
             }
             return (
-              <div className="col mb-4">
+              <div className="col mb-4" key={item.item}>
                 <div
                   className={cardClass}
                   style={styles.card}
-                  key={item.item}
                   role="button"
                   tabIndex={0}
                   onClick={() => onClickItem(item)}

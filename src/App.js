@@ -37,6 +37,7 @@ function App() {
       "item_name": event.item_name,
       "location": event.location,
     });
+    console.log("locationEvents", locationEvents);
     setActiveLocation(locationEvents);
   };
 

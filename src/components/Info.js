@@ -34,7 +34,7 @@ class Info extends React.Component {
           {eventNumber + 1}
           {" "}
           of
-          {selection.length + 1}
+          {selection.length}
         </h4>
         <h3>Location</h3>
         <ul>

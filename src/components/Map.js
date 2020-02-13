@@ -5,6 +5,13 @@ import _ from "lodash";
 
 import worldMapImage from "../assets/worldMap3.jpg";
 
+function getRandomColor() {
+  const red = Math.floor(Math.random() * 256);
+  const green = Math.floor(Math.random() * 256);
+  const blue = Math.floor(Math.random() * 256);
+  return `rgb(${red}, ${green}, ${blue})`;
+}
+
 class Map extends Component {
   componentDidMount() {
     this._drawMap();
@@ -125,26 +132,31 @@ class Map extends Component {
       .attr("id", "arrow")
       .attr("markerWidth", "5")
       .attr("markerHeight", "5")
-      .attr("refX", "0")
+      .attr("refX", "6")
       .attr("refY", "2")
       .attr("orient", "auto")
       .attr("markerUnits", "strokeWidth")
       .append("path")
-      .attr("d", "M0,0 L0,4 L5,3 z")
+      .attr("d", "M0,0 L0,4 L5,2 z")
       .attr("fill", "#f00");
 
 
     // Add the lines
     const tempData = data.slice(1, data.length - 1);
+    const opacityTick = tempData.length > 2 ? 1 / tempData.length : 1;
+    const lineColor = getRandomColor();
     for (let i = 0; i < tempData.length - 1; i++) {
+      const alpha = i > 0 ? i * opacityTick : opacityTick;
       svg.append("line")
         .attr("class", "line")
         .attr("x1", x(tempData[i].coordinates.x))
         .attr("y1", y(tempData[i].coordinates.y))
-        .attr("x2", x(tempData[i + 1].coordinates.x))
-        .attr("y2", y(tempData[i + 1].coordinates.y))
+        .attr("x2", x(tempData[i + 1].coordinates.x - 20))
+        .attr("y2", y(tempData[i + 1].coordinates.y - 20))
         .attr("stroke-width", "3")
-        .attr("stroke", "#000")
+        .attr("stroke", lineColor)
+        .attr("stroke-linecap", "round")
+        .attr("stroke-opacity", alpha)
         .attr("marker-end", "url(#arrow)");
     }
 
@@ -159,7 +171,17 @@ class Map extends Component {
       .attr("cy", (d) => {
         return y(d.coordinates.y);
       })
-      .attr("stroke", "#32CD32")
+      .attr("stroke", (d) => {
+        if (d.type === "bossKill") {
+          return "#ffc448";
+        }
+        if (d.type === "ownerChange") {
+          return "#ff484d";
+        }
+        if (d.type === "playerKill") {
+          return "#f560ff";
+        }
+      })
       .attr("stroke-width", 1.5)
       .attr("fill", "#FFFFFF")
       .on("mouseover", (d) => {
@@ -205,18 +227,24 @@ class Map extends Component {
   render() {
     return (
       <div className="map" ref="weride_map">
-        <div id="scatter" />
+        <div id="scatter" style={styles.scatter} />
       </div>
     );
   }
 }
+
+const styles = {
+  scatter: {
+    textAlign: "center",
+  },
+};
 
 Map.defaultProps = {
   onClickEvent: () => {},
 };
 
 Map.propTypes = {
-  itemData: PropTypes.object.isRequired,
+  itemData: PropTypes.array.isRequired,
   onClickEvent: PropTypes.func,
 };
 
