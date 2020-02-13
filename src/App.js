@@ -52,7 +52,11 @@ function App() {
           <Description />
         </div>
         <div className="row">
-          <Topbar selection={extractItems(werideData)} onClickItem={onClickItem} />
+          <Topbar
+            selection={extractItems(werideData)}
+            onClickItem={onClickItem}
+            activeItem={activeItem[0]}
+          />
         </div>
         <div className="row">
           <div className="col-lg-8 col-md-12 col-sm-12">

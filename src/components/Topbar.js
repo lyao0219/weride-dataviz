@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 import axe from "../svg/axe.svg";
@@ -13,48 +13,58 @@ import ring from "../svg/ring.svg";
 import spear from "../svg/spear.svg";
 import sword from "../svg/sword.svg";
 
-class Topbar extends React.Component {
-  render() {
-    const { selection, onClickItem } = this.props;
-    return (
-      <div className="items">
-        <h2 className="item_header">Items</h2>
-        {" "}
-        <span>filters: </span>
-        <select>
-          <option value="none">-</option>
-          <option value="most_active">Most Active</option>
-          <option value="oldest">Oldest</option>
-        </select>
+function Topbar(props) {
+  const { selection, onClickItem, activeItem } = props;
 
-        <div className="thumbnail-container">
-          <ul className="thumbnail-list">
-            {selection.map((item) => {
-              return (
-                <span
+  return (
+    <div>
+      <h2 className="item_header">Items</h2>
+      {" "}
+      <span>filters: </span>
+      <select>
+        <option value="none">-</option>
+        <option value="most_active">Most Active</option>
+        <option value="oldest">Oldest</option>
+      </select>
+
+      <div class="container" style={styles.container}>
+        <div class="row row-cols-4 row-cols-md-6">
+          {selection.map((item) => {
+            let cardClass = "card";
+            if (item.item === activeItem.item) {
+              cardClass = "card text-white bg-success";
+            }
+            return (
+              <div className="col mb-4">
+                <div
+                  className={cardClass}
+                  style={styles.card}
                   key={item.item}
                   role="button"
                   tabIndex={0}
                   onClick={() => onClickItem(item)}
                 >
                   <Item item={item} />
-                </span>
-              );
-            })}
-          </ul>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
-    );
-  }
+      <hr />
+    </div>
+  );
 }
 
 Topbar.defaultProps = {
   selection: [],
+  activeItem: {},
 };
 
 Topbar.propTypes = {
   selection: PropTypes.array,
   onClickItem: PropTypes.func.isRequired,
+  activeItem: PropTypes.object,
 };
 
 class Item extends React.Component {
@@ -109,17 +119,20 @@ class Item extends React.Component {
 
 
     return (
-      <li>
-        <span>
-          <img
-            className="thumbnail-image"
-            src={source}
-            alt="thumbnail"
-            height="80"
-            width="80" />
-          <div className="item-name">{item.item_name}</div>
-        </span>
-      </li>
+      <>
+        <img
+          className="card-img-top"
+          src={source}
+          alt="thumbnail"
+          height="50"
+          width="50" />
+        <div
+          className="card-body"
+          style={styles.cardText}
+        >
+          {item.item_name}
+        </div>
+      </>
     );
   }
 }
@@ -130,6 +143,20 @@ Item.defaultProps = {
 
 Item.propTypes = {
   item: PropTypes.object,
+};
+
+const styles = {
+  container: {
+    maxHeight: 150,
+    overflowY: "scroll",
+    marginTop: 20,
+  },
+  card: {
+    paddingTop: 10,
+  },
+  cardText: {
+    textAlign: "center"
+  },
 };
 
 export default Topbar;
