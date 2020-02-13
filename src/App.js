@@ -16,7 +16,7 @@ import werideData from "./data/dataviz.json";
 function extractItems(data) {
   const newArray = [];
   data.map((item) => {
-    const foundItem = _.find(newArray, ["item_name", item.item_name]);
+    const foundItem = _.find(newArray, ["item", item.item]);
     if (foundItem) {
       return item;
     }
@@ -34,7 +34,7 @@ function App() {
 
   const onClickEvent = (event) => {
     const locationEvents = _.filter(werideData, {
-      "item_name": event.item_name,
+      "item": event.item,
       "location": event.location,
     });
     setActiveLocation(locationEvents);
