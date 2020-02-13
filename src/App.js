@@ -9,6 +9,7 @@ import Map from "./components/Map";
 import Topbar from "./components/Topbar";
 import Info from "./components/Info";
 import Legend from "./components/Legend";
+import Description from "./components/Description";
 
 import werideData from "./data/dataviz.json";
 
@@ -28,7 +29,7 @@ function extractItems(data) {
 }
 
 function App() {
-  const [activeLocation, setActiveLocation] = useState({});
+  const [activeLocation, setActiveLocation] = useState([]);
   const [activeItem, setActiveItem] = useState([]);
 
   const onClickEvent = (event) => {
@@ -48,11 +49,14 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row">
+          <Description />
+        </div>
+        <div className="row">
           <Topbar selection={extractItems(werideData)} onClickItem={onClickItem} />
         </div>
         <div className="row">
           <div className="col-lg-8 col-md-12 col-sm-12">
-            <Map name="awesome map" itemData={activeItem} onClickEvent={onClickEvent} />
+            <Map itemData={activeItem} onClickEvent={onClickEvent} />
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="card">
