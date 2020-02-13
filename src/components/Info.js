@@ -40,7 +40,7 @@ class Info extends React.Component {
         <ul>
           <li>{selection[eventNumber].location}</li>
         </ul>
-        <h3>Owner Change</h3>
+        <h3>{selection[eventNumber].type}</h3>
         <ul>
           <li>
             From

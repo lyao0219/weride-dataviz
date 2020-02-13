@@ -5,11 +5,20 @@ import _ from "lodash";
 
 import worldMapImage from "../assets/worldMap3.jpg";
 
+const colors = [
+  "#1F77B4", "#D62728", "#2CA02C", "#9467BD", "#8C564B", "#E377C2",
+  "#7F7F7F", "#BCBD22", "#16BECF",
+];
+
 function getRandomColor() {
-  const red = Math.floor(Math.random() * 256);
-  const green = Math.floor(Math.random() * 256);
-  const blue = Math.floor(Math.random() * 256);
-  return `rgb(${red}, ${green}, ${blue})`;
+  // const red = Math.floor(Math.random() * 256);
+  // const green = Math.floor(Math.random() * 256);
+  // const blue = Math.floor(Math.random() * 256);
+  // return `rgb(${red}, ${green}, ${blue})`;
+  const rand = Math.floor(Math.random() * colors.length);
+  console.log("rand", rand);
+  console.log("colors.length", colors.length);
+  return colors[rand];
 }
 
 class Map extends Component {
@@ -34,6 +43,17 @@ class Map extends Component {
       ...itemData,
       { coordinates: { x: 0, y: 8000 } },
     ];
+
+    // calculate location popularity
+    const locationPop = {};
+    data.map((item) => {
+      if (!locationPop[item.location]) {
+        locationPop[item.location] = 1;
+      } else {
+        locationPop[item.location]++;
+      }
+      return item;
+    })
 
     const margin = {
       top: 20,
@@ -143,7 +163,7 @@ class Map extends Component {
 
     // Add the lines
     const tempData = data.slice(1, data.length - 1);
-    const opacityTick = tempData.length > 2 ? 1 / tempData.length : 1;
+    const opacityTick = tempData.length > 2 ? 1 / (tempData.length - 1) : 1;
     const lineColor = getRandomColor();
     for (let i = 0; i < tempData.length - 1; i++) {
       const alpha = i > 0 ? i * opacityTick : opacityTick;
@@ -164,7 +184,9 @@ class Map extends Component {
     svg.selectAll("dot")
       .data(data)
       .enter().append("circle")
-      .attr("r", 5)
+      .attr("r", (d) => {
+        return 5 + (locationPop[d.location] / 2);
+      })
       .attr("cx", (d) => {
         return x(d.coordinates.x);
       })
@@ -182,12 +204,16 @@ class Map extends Component {
           return "#f560ff";
         }
       })
-      .attr("stroke-width", 1.5)
+      .attr("stroke-width", (d) => {
+        return 1.5 + (locationPop[d.location] / 3);
+      })
       .attr("fill", "#FFFFFF")
       .on("mouseover", (d) => {
         d3.select(d3.event.target).transition()
           .duration("100")
-          .attr("r", 7);
+          .attr("r", (d) => {
+            return 7 + (locationPop[d.location] / 2);
+          });
         div.transition()
           .duration(100)
           .style("opacity", 1);
