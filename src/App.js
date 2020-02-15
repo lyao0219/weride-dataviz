@@ -3,7 +3,7 @@ import _ from "lodash";
 import moment from "moment";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./App.css";
+import "./assets/css/App.css";
 
 import Map from "./components/Map";
 import Topbar from "./components/Topbar";
