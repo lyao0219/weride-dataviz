@@ -28,32 +28,43 @@ class Info extends React.Component {
 
     return (
       <div className="info">
-        <h2>{selection[eventNumber].item_name}</h2>
+
+        <div className = "info_div_1">
+        <h3>{selection[eventNumber].item_name}</h3>
         <h4>
           Event
+          {" "}
           {eventNumber + 1}
           {" "}
           of
+          {" "}
           {selection.length}
         </h4>
-        <h3>Location</h3>
+        </div>
+
+        
+        <div className = "info_div_2">
+        <h5>Location</h5>
         <ul>
           <li>{selection[eventNumber].location}</li>
         </ul>
-        <h3>{selection[eventNumber].type}</h3>
+        <h5>{selection[eventNumber].type}</h5>
         <ul>
           <li>
             From
-            {selection[eventNumber].primary_name}
+            {" "}
+            <p1>{selection[eventNumber].primary_name}</p1>
             {" "}
             to
-            {selection[eventNumber].secondary_name}
+            {" "}
+            <p2>{selection[eventNumber].secondary_name}</p2>
           </li>
         </ul>
-        <h3>Special description</h3>
+        <h5>Special description</h5>
         <ul>
           <li>{selection[eventNumber].special}</li>
         </ul>
+        </div>
       </div>
     );
   }

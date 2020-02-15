@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
+
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
@@ -19,13 +20,13 @@ function Topbar(props) {
   return (
     <div>
       <h2 className="item_header">Items</h2>
-      {" "}
-      <span>filters: </span>
-      <select>
-        <option value="none">-</option>
-        <option value="most_active">Most Active</option>
-        <option value="oldest">Oldest</option>
-      </select>
+
+      <span> filters: </span>
+       <select>
+         <option value="none">-</option>
+         <option value="most_active">Most Active</option>
+         <option value="oldest">Oldest</option>
+       </select>
 
       <div className="container" style={styles.container}>
         <div className="row row-cols-4 row-cols-md-6">
@@ -146,7 +147,7 @@ Item.propTypes = {
 
 const styles = {
   container: {
-    maxHeight: 150,
+    maxHeight: 200,
     overflowY: "scroll",
     marginTop: 20,
   },
